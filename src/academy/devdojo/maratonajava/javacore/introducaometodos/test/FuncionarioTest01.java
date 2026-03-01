@@ -6,9 +6,9 @@ public class FuncionarioTest01 {
     static void main() {
         Funcionario funcionario01 = new Funcionario();
 
-        funcionario01.nome = "Dexter";
-        funcionario01.idade = 30;
-        funcionario01.salario = new double[]{2000, 3000, 4000};
+        funcionario01.setNome("Dexter");
+        funcionario01.setIdade(30);
+        funcionario01.setSalario(new double[]{2000, 3000, 4000});
         funcionario01.imprime();
     }
 }
