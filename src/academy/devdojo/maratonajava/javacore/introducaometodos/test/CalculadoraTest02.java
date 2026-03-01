@@ -1,0 +1,18 @@
+package academy.devdojo.maratonajava.javacore.introducaometodos.test;
+
+import academy.devdojo.maratonajava.javacore.introducaometodos.domain.Calculadora;
+
+public class CalculadoraTest02 {
+    static void main() {
+        Calculadora calculadora = new Calculadora();
+        int num1 = 1;
+        int num2 = 2;
+
+        calculadora.alteraDoisNumeros(num1, num2);
+
+        System.out.println("----------------");
+        System.out.println("Fora do método");
+        System.out.println("Num1: " + num1);
+        System.out.println("Num2: " + num2);
+    }
+}
