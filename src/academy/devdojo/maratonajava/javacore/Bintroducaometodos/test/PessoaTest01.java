@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.introducaometodos.test;
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.test;
 
-import academy.devdojo.maratonajava.javacore.introducaometodos.domain.Pessoa;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.Pessoa;
 
 public class PessoaTest01 {
     static void main() {
