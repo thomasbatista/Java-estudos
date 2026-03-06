@@ -1,0 +1,15 @@
+package academy.devdojo.maratonajava.javacore.Gassociacao.test;
+
+import academy.devdojo.maratonajava.javacore.Gassociacao.domain.Escola;
+import academy.devdojo.maratonajava.javacore.Gassociacao.domain.Professor;
+
+public class EscolaTest01 {
+    static void main() {
+        Professor professor1 = new Professor("Jiraya");
+        Professor professor2 = new Professor("Kakashi");
+        Professor[] professores = new Professor[]{professor1, professor2};
+        Escola escola = new Escola("Konoha", professores);
+
+        escola.imprime();;
+    }
+}
