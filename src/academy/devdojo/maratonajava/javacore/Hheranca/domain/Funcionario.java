@@ -3,8 +3,19 @@ package academy.devdojo.maratonajava.javacore.Hheranca.domain;
 public class Funcionario extends Pessoa{
     private double salario;
 
+    static {
+        System.out.println("Dentro do bloco de inicialização estático de funcionáro");
+    }
+    {
+        System.out.println("Dentro do bloco de inicialização de funcionáro 1");
+    }
+    {
+        System.out.println("Dentro do bloco de inicialização de funcionáro 2");
+    }
+
     public Funcionario(String nome) {
         super(nome);
+        System.out.println("Dentro do construtor de funcionário");
     }
 
     public void imprime() {
